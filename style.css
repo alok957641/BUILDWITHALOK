@@ -702,7 +702,7 @@ body{
     
 
 .latest_update_main_box{
-    width: 100%;
+    /* width: 100%; */
     min-height: 50px;
     margin-top: 80px;
     background-color: aliceblue;
