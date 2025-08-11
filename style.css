@@ -691,7 +691,7 @@ body{
 
     .say_about_us_cards_box{
     display:grid;
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1,7fr);
     gap: 20px;
   }
 
@@ -701,127 +701,7 @@ body{
 
     
 
-.latest_update_main_box{
-    /* width: 100%; */
-    min-height: 50px;
-    margin-top: 80px;
-    background-color: aliceblue;
-}
-
-.latest_update_content_box{
-    display: flex;
-    padding: 1rem 19rem;
-  
-}
-
-.latest_img{
-    height: 235px;
-    width: 350px;
-}
-   
-
-.update_form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(243, 228, 228);
-      height: 235px;
-    width: 350px;
-}
-
-.h2_or_p{
-   text-align: left;
-}
-
-.update_h2{
-    font-size: 24px;
-    color: blue;
-    font-weight: bold;
-}
-.update_p{
-    font-size:13px;
-    color: #5c5c5c;
-}
-
-.form_email{
-  padding-right:30px ;
-}
-
-#email{
-    height: 24px;
-}
-
-
-
-.update_btn{
-    background-color: #562bf3;
-    color: #fff;
-    width: 50px;
-    height: 24px;
-    border-radius:3px;
-}
-
-
-
-.update_paira{
-    font-size: 10px;
-    padding:0 0.5rem;
-}
-
-.update_a{
-    font-size: 12px;
-}
-
-
-@media screen and (max-width:768px){
-
-    .latest_update_main_box{
     
-    min-height: 50px;
-    margin-top: 80px;
-    background-color: aliceblue;
-}
-
-
-    .latest_update_content_box{
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    
-     
-  
-}
-.update_h2{
-    font-size: 20px;
-    color: blue;
-    font-weight: bold;
-}
-
-
-
-.latest_img{
-    height: 235px;
-    width: 200px;
-}
-   
-
-.update_form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(243, 228, 228);
-      height: 235px;
-    width: 200px;
-}
-}
-
-
-
-
 
 .footer{
     margin-top: 100px;
@@ -910,8 +790,8 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    background-color: #562bf3;
+    gap: 30px;
+
     
    
     /* padding: 1rem 18rem;  */
@@ -920,12 +800,12 @@ footer{
 
 .footr_sec > li{
     color: #746d6d;
-    font-size: 7px;
+    font-size: 9px;
 }
 
 
 .ftr_lg{
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 900;
     color: #2a1c50;
 }
@@ -974,7 +854,7 @@ footer{
     margin-top: 30px;
     /* width: 100%; */
     height: 30px;
-    background-color: #b93e3e;
+   font-size: 13px;
     display: flex;
     justify-content: center;
     align-items: center;
