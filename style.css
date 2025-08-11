@@ -776,10 +776,38 @@ body{
 
 @media screen and (max-width:768px){
 
+    .latest_update_main_box{
+     width: 100%;
+    min-height: 50px;
+    margin-top: 80px;
+    background-color: aliceblue;
+}
+
+
     .latest_update_content_box{
-    display: flex;
-    padding: 1rem 1rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+     
   
+}
+
+.latest_img{
+    height: 235px;
+    width: 200px;
+}
+   
+
+.update_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 228, 228);
+      height: 235px;
+    width: 200px;
 }
 }
 
@@ -874,10 +902,37 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding: 1rem 18rem;
+    gap: 10px;
+   
+    padding: 1rem 18rem; 
+   
+}
+
+.footr_sec > li{
+    color: #746d6d;
+    font-size: 8px;
+}
+
+
+.ftr_lg{
+    font-size: 1rem;
+    font-weight: 900;
+    color: #2a1c50;
+}
+.ftr_p{
+    font-size: 8px;
+    margin-top: 8px;
+}
+
+.instagrams_logo{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.ftrr_img{
+    height: 20px;
+    
 }
 
     
-
 }
